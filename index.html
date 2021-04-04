@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kaivalya Kumar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+<style>
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url('img_galaxy.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#home {
+  height: 600px;
+  color:white;
+}
+#about {
+  height: 600px;
+  color:midnightblue;
+  background-color:paleturquoise;
+  text-align: center;
+  animation-name: fields;
+  animation-duration: 10s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+#projects {
+  height: 600px;
+  color:midnightblue;
+  background-color: paleturquoise;
+  animation-name: fields;
+  animation-duration: 10s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+#contact {
+  height: 600px;
+  color:midnightblue;
+  background-color: paleturquoise;
+  animation-name: fields;
+  animation-duration: 10s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-links {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 18px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 4px;
+  color:orange;
+}
+
+.social-links a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.top {
+ text-align: center;
+ }
+ .bottom {
+ text-align: center;
+ }
+ img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+ @keyframes fields {
+  0%   {background-color: paleturquoise;}
+  50%  {background-color: aquamarine;}
+  100% {background-color: paleturquoise;}
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
+</head>
+<body>
+
+<div class="main" id="home">
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="#about">About Me</a>
+  <div class="dropdown">
+    <button class="dropbtn">More...
+      <i class="fall down menu"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#projects">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="#contact">Contact Me</a>
+    </div>
+    </div> 
+    </div>
+	<div class="top">
+      <img class="profile-picture" alt="Face" src="img/profile.jpg" width="200"/>
+      <h1 class="name">Kaivalya Kumar</h1>
+      <h4 class="subtitle">CSE(IoT) Student</h4>
+    </div>
+   
+    
+    <div class="bottom">
+      <p class="bio">
+        Computer Science and Engineering student, web developer,programmer.
+        Thanks for visiting my website.<br>Check out my other profiles:
+      </p>
+      <ul class="social-links">
+        <li><a href="https://github.com/KaivalyaKumar">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/kaivalya-kumar-987077209/">LinkedIn</a></li>
+      </ul>
+    </div>
+</div>
+
+<div class="main" id="about">
+<h1 style="text-shadow: 2px 2px 3px purple;">Something About Me</h1>
+    <p>I am Kaivalya Kumar. I am currently pursuing my Bachelor's degree in CSE(Internet of Things) from Jain University, Bengaluru. I currently reside in Mumbai. I am proficient in Java,C,C++,HTML and CSS. I am currently working to improve my Python,Kotlin,JavaScript and Arduino skills.
+     <br>
+     <br>
+    <p>I chose the field of programming and development because computers always fascinated me from my childhood.How some neatly arranged silicon devices and some lines of digital zero's and one's can perform such marvelous tasks at the blink of an eye?
+     <br>
+     <br>
+    <p>This fascination sparked my interest which led me to the boundless world of programming.The first programming language I learnt was Logo.Then there was no stopping me from that point.
+  <br>
+  <br>
+  <img src="img/pic1.jpg" alt="techpic1" width="400" height="200"/>
+  <img src="img/pic2.jpg" alt="techpic2" width="400" height="200"/>
+  <br>
+  <br>
+ <input type="button" onclick="window.location.href='#home'">Home</button>
+  
+</div>
+<div class="main" id="projects">
+  <h2 style="text-shadow: 2px 2px 3px purple;">Ongoing Projects</h2>
+   <br>
+   <ul>
+      <li>Android App Development using Web Technology Concepts(XML,JAVA,Kotlin)</li>
+      <li>Research Work based on DBMS Concepts</li>
+      <li>Operarting System simulation project based on OS/161</li>
+    </ul>
+	<br>
+	<img src="img/pic3.jpg" alt="os" width="400" height="200"/>
+	<img src="img/pic41.jpg" alt="techpic" width="400" height="200"/>
+   <br>
+    <h2 style="text-shadow: 2px 2px 3px purple;">Projects Done</h2>
+    <ul>
+        <li>Remote weather station based on Arduino board and ESP8266 WiFi Module</li>
+        <li>Railway Ticket Reservation System using C++</li>
+    </ul>
+    <br>
+    <p>Also, I am part of the TopCoders team of the college which constantly organises workshops as well as gives oppurtunities to collaborate on various projects.
+    <br>
+     <input type="button" onclick="window.location.href='#home'">Home</button>
+  
+</div>
+<div class="main" id="contact">
+<h2 style="text-shadow: 2px 2px 3px purple;">You can drop a word on:</h2>
+   <ul>
+     <li>My email:kaivalyakumar75@gmail.com</li>
+     <li><a href="https://discordapp.com/users/627848028799369237">My discord profile</a></li>
+   </ul>
+   <br>
+   <p><form method="get" action="receiver.html">
+
+<p>Or message me directly:<br><br>
+<label>Your Name
+<input type="text" name="name" required>
+</label> 
+</p>
+
+<p>
+<label>Your Message
+<input type="text" name="message">
+</label>
+</p>
+
+<p>
+<label>Your Email 
+<input type="email" name="email_address">
+</label>
+</p>
+<p><button>Submit</button></p>
+
+</form>
+<br>
+<br>
+<p>Looking forward to hearing from you!
+   <br>
+   <br>
+   <img src="img/pic51.jfif" alt="techpic" width="300" height="100"/>
+   <br>
+   <input type="button" onclick="window.location.href='#home'">Home</button>
+</div>
+
+</body>
+</html>
